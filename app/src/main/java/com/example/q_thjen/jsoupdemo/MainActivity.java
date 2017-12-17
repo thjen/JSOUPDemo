@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
                         Element elementName = element.getElementsByTag("h3").first();
                         Element elementImage = element.getElementsByTag("img").first();
-
+                        /** h3 amd img là các thẻ nhỏ bên trong chứa nội dung **/
                         if (elementName != null ) {
 
                             name = elementName.text();
